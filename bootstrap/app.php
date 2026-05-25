@@ -8,12 +8,23 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: __DIR__.'/../routes/web.php',
         commands: __DIR__.'/../routes/console.php',
-        api: __DIR__.'/../routes/api.php',
+        api: null,
         health: '/up',
         then: function () {
-            Route::prefix('app-api')
-                ->middleware('api')
-                ->group(base_path('routes/app-api.php'));
+            Route::middleware('api')
+                ->group(base_path('routes/mineadmin.php'));
+
+            if (env('LOAD_LEGACY_API', false)) {
+                Route::prefix('api')
+                    ->middleware('api')
+                    ->group(base_path('routes/api.php'));
+            }
+
+            if (env('LOAD_APP_API', false)) {
+                Route::prefix('app-api')
+                    ->middleware('api')
+                    ->group(base_path('routes/app-api.php'));
+            }
         },
     )
     ->withMiddleware(function (Middleware $middleware) {

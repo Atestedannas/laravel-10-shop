@@ -10,28 +10,91 @@ use function App\Http\Helpers\api_response;
 
 class UserRoleController extends Controller
 {
+    public function getInfo(Request $request)
+    {
+
+        $user = $request->user();
+        if (!$user) {
+            return api_response(null, '未登录', 401);
+        }
+        $user->load('roles.permissions');
+        // 1. 权限码列表：去重后取 permissions.name
+        $codes = $user->roles
+            ->flatMap(fn($role) => $role->permissions)
+            ->unique('id')
+            ->pluck('name')
+            ->values()
+            ->toArray();
+
+        // 2. 角色名称列表
+        $roles = $user->roles->pluck('name')->toArray();
+
+        // 3. 动态路由菜单（示例：基于权限动态生成）
+        // 实际开发中可存数据库，或根据 codes 判断是否显示菜单项
+        $routers = $this->buildRouters($codes);
+
+        // 4. 用户详细信息（根据你的 users 表字段）
+        $userData = [
+            'id' => $user->id,
+            'username' => $user->name,          // 假设 name 相当于用户名
+            'real_name' => $user->real_name ?? $user->name,
+            'avatar' => $user->avatar ?? '',
+            'email' => $user->email,
+            'phone' => $user->phone ?? '',
+            'backend_setting' => $user->backend_setting ?? '{"mode":"light"}',
+            'created_at' => $user->created_at?->toDateTimeString(),
+            'updated_at' => $user->updated_at?->toDateTimeString(),
+        ];
+
+        // 5. 最终返回格式
+        return response()->json([
+            'success' => true,
+            'data' => [
+                'codes'   => $codes,
+                'roles'   => $roles,
+                'routers' => $routers,
+                'user'    => $userData,
+                'menus'   => [],  // 如果你有菜单表，可以额外返回
+            ],
+            'message' => '获取成功',
+        ]);
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
     /**
-     * 鑾峰彇鎸囧畾鐢ㄦ埛鐨勮鑹插垪琛?     * GET /users/{userId}/roles
+     * Get roles of a specific user
+     * GET /users/{userId}/roles
      */
     public function userRolesList($userId)
     {
         $user = User::with('roles')->find($userId);
         if (!$user) {
-            return api_response(null, '鐢ㄦ埛涓嶅瓨鍦?, 404);
+            return api_response(null, 'User not found', 404);
         }
         return api_response($user->roles);
     }
 
     /**
-     * 鑾峰彇鎸囧畾鐢ㄦ埛鐨勬潈闄愬垪琛紙閫氳繃瑙掕壊鍘婚噸锛?     * GET /users/{userId}/permissions
+     * Get permissions of a specific user (deduplicated via roles)
+     * GET /users/{userId}/permissions
      */
     public function userPermissionsList($userId)
     {
         $user = User::with('roles.permissions')->find($userId);
         if (!$user) {
-            return api_response(null, '鐢ㄦ埛涓嶅瓨鍦?, 404);
+            return api_response(null, 'User not found', 404);
         }
-
         $permissions = $user->roles->flatMap(function ($role) {
             return $role->permissions;
         })->unique('id')->values();
@@ -40,7 +103,7 @@ class UserRoleController extends Controller
     }
 
     /**
-     * 涓虹敤鎴峰垎閰嶄竴涓垨澶氫釜瑙掕壊
+     * Assign one or more roles to a user
      * POST /users/{userId}/roles
      * Body: {"role_ids": [1, 2, 3]}
      */
@@ -48,7 +111,7 @@ class UserRoleController extends Controller
     {
         $user = User::find($userId);
         if (!$user) {
-            return api_response(null, '鐢ㄦ埛涓嶅瓨鍦?, 404);
+            return api_response(null, 'User not found', 404);
         }
 
         $validated = $request->validate([
@@ -56,52 +119,50 @@ class UserRoleController extends Controller
             'role_ids.*' => 'exists:roles,id',
         ]);
 
-        // syncWithoutDetaching 浼氶檮鍔犳柊瑙掕壊锛屼笉浼氱Щ闄ゅ凡鏈夎鑹?        $user->roles()->syncWithoutDetaching($validated['role_ids']);
-
+        $user->roles()->syncWithoutDetaching($validated['role_ids']);
         $user->load('roles');
-        return api_response($user->roles, '瑙掕壊鍒嗛厤鎴愬姛');
+        return api_response($user->roles, 'Roles assigned successfully');
     }
 
     /**
-     * 鍙栨秷鐢ㄦ埛鐨勬煇涓鑹?     * DELETE /users/{userId}/roles/{roleId}
+     * Cancel (remove) a role from a user
+     * DELETE /users/{userId}/roles/{roleId}
      */
     public function cancleUserRole($userId, $roleId)
     {
         $user = User::find($userId);
         if (!$user) {
-            return api_response(null, '鐢ㄦ埛涓嶅瓨鍦?, 404);
+            return api_response(null, 'User not found', 404);
         }
 
         $role = Role::find($roleId);
         if (!$role) {
-            return api_response(null, '瑙掕壊涓嶅瓨鍦?, 404);
+            return api_response(null, 'Role not found', 404);
         }
 
         if (!$user->roles()->where('role_id', $roleId)->exists()) {
-            return api_response(null, '璇ョ敤鎴锋湭鎷ユ湁姝よ鑹?, 404);
+            return api_response(null, 'User does not have this role', 404);
         }
 
         $user->roles()->detach($roleId);
-
         $user->load('roles');
-        return api_response($user->roles, '瑙掕壊鎾ら攢鎴愬姛');
+        return api_response($user->roles, 'Role revoked successfully');
     }
 
     /**
-     * 妫€鏌ョ敤鎴锋槸鍚︽嫢鏈夋寚瀹氳鑹诧紙鍙€夋鏌ユ潈闄愶級
+     * Check if a user has a specific role
      * GET /users/{userId}/check-role?role_id=1
-     * 鎴栬€?POST 浼犲弬
      */
     public function checkUserRole(Request $request, $userId)
     {
         $user = User::find($userId);
         if (!$user) {
-            return api_response(null, '鐢ㄦ埛涓嶅瓨鍦?, 404);
+            return api_response(null, 'User not found', 404);
         }
 
         $roleId = $request->input('role_id');
         if (!$roleId) {
-            return api_response(null, '璇锋彁渚?role_id 鍙傛暟', 422);
+            return api_response(null, 'Missing role_id parameter', 422);
         }
 
         $hasRole = $user->roles()->where('role_id', $roleId)->exists();
@@ -109,31 +170,47 @@ class UserRoleController extends Controller
     }
 
     /**
-     * 鑾峰彇褰撳墠鐧诲綍鐢ㄦ埛鐨勮鑹插垪琛?     * GET /api/user/roles
+     * Get roles of the currently authenticated user
+     * GET /api/user/roles
      */
     public function currentUserRoles()
     {
         $user = auth()->user();
         if (!$user) {
-            return api_response(null, '鏈櫥褰?, 401);
+            return api_response(null, 'Not logged in', 401);
         }
         $user->load('roles');
         return api_response($user->roles);
     }
 
     /**
-     * 鑾峰彇褰撳墠鐧诲綍鐢ㄦ埛鐨勬潈闄愬垪琛紙閫氳繃瑙掕壊鍚堝苟鍘婚噸锛?     * GET /api/user/permissions
+     * Get permissions of the currently authenticated user
+     * GET /api/user/permissions
      */
     public function currentUserPermissions()
     {
         $user = auth()->user();
         if (!$user) {
-            return api_response(null, '鏈櫥褰?, 401);
+            return api_response(null, 'Not logged in', 401);
         }
         $user->load('roles.permissions');
         $permissions = $user->roles->flatMap(function ($role) {
             return $role->permissions;
         })->unique('id')->values();
         return api_response($permissions);
+    }
+
+    /**
+     * Get the currently authenticated user's information (with roles & permissions)
+     * GET /api/user/info
+     */
+    public function currentUserInfo()
+    {
+        $user = auth()->user();
+        if (!$user) {
+            return api_response(null, 'Not logged in', 401);
+        }
+        $user->load('roles.permissions');
+        return api_response($user);
     }
 }

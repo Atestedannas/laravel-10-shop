@@ -35,7 +35,8 @@ class GoodsController extends Controller
             $query->where('goods_name', 'like', "%{$search}%");
         }
 
-        // 排序        switch ($sortType) {
+        // 排序
+        switch ($sortType) {
             case 'sales':
                 $query->orderBy('goods_sales', 'desc');
                 break;

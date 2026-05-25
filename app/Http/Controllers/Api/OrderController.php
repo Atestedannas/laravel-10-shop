@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class OrderController extends Controller
 {
     /**
-     * 订单状态统计     * 返回: { all, payment, delivery, received }
+     * Order status counters.
      */
     public function todoCounts(Request $request)
     {
@@ -20,23 +20,18 @@ class OrderController extends Controller
         }
 
         $baseQuery = Order::where('user_id', $user->id)
-            ->where('order_status', '!=', 20); // 排除已取消订单
-        $all       = (clone $baseQuery)->count();
-        $payment   = (clone $baseQuery)->where('pay_status', 10)->count();
-        $delivery  = (clone $baseQuery)->where('delivery_status', 10)->count();
-        $received  = (clone $baseQuery)->where('delivery_status', 20)
-            ->where('receipt_status', 10)->count();
+            ->where('order_status', '!=', 20);
 
         return api_response([
-            'all'      => $all,
-            'payment'  => $payment,
-            'delivery' => $delivery,
-            'received' => $received,
+            'all'      => (clone $baseQuery)->count(),
+            'payment'  => (clone $baseQuery)->where('pay_status', 10)->count(),
+            'delivery' => (clone $baseQuery)->where('delivery_status', 10)->count(),
+            'received' => (clone $baseQuery)->where('delivery_status', 20)->where('receipt_status', 10)->count(),
         ]);
     }
 
     /**
-     * 订单列表(按状态筛选)     * 参数: dataType, page
+     * User order list.
      */
     public function list(Request $request)
     {
@@ -60,13 +55,11 @@ class OrderController extends Controller
                 $query->where('delivery_status', 10);
                 break;
             case 'received':
-                $query->where('delivery_status', 20)
-                    ->where('receipt_status', 10);
+                $query->where('delivery_status', 20)->where('receipt_status', 10);
                 break;
         }
 
-        $orders = $query->orderBy('id', 'desc')
-            ->paginate($perPage, ['*'], 'page', $page);
+        $orders = $query->orderBy('id', 'desc')->paginate($perPage, ['*'], 'page', $page);
 
         $list = $orders->map(function ($order) {
             $goods = OrderGoods::where('order_id', $order->id)->get();
@@ -104,8 +97,7 @@ class OrderController extends Controller
     }
 
     /**
-     * 订单详情
-     * 参数: orderId
+     * Order detail.
      */
     public function detail(Request $request)
     {
@@ -135,19 +127,19 @@ class OrderController extends Controller
             ];
         }
 
-        $goods = OrderGoods::where('order_id', $order->id)->get()->map(function ($g) {
+        $goods = OrderGoods::where('order_id', $order->id)->get()->map(function ($g) use ($order) {
             return [
-                'goods_id'        => $g->goods_id,
-                'goods_name'      => $g->goods_name,
-                'goods_image'     => $g->goods_image,
-                'goods_props'     => $g->goods_props,
-                'goods_price'     => (float) $g->goods_price,
-                'grade_goods_price' => (float) $g->goods_price,
-                'total_num'       => (int) $g->total_num,
-                'is_user_grade'   => $g->is_user_grade,
-                'refund'          => null,
-                'order_goods_id'  => $g->id,
-                'delivery_status' => $order->delivery_status,
+                'goods_id'           => $g->goods_id,
+                'goods_name'         => $g->goods_name,
+                'goods_image'        => $g->goods_image,
+                'goods_props'        => $g->goods_props,
+                'goods_price'        => (float) $g->goods_price,
+                'grade_goods_price'  => (float) $g->goods_price,
+                'total_num'          => (int) $g->total_num,
+                'is_user_grade'      => $g->is_user_grade,
+                'refund'             => null,
+                'order_goods_id'     => $g->id,
+                'delivery_status'    => $order->delivery_status,
             ];
         });
 
@@ -177,8 +169,7 @@ class OrderController extends Controller
     }
 
     /**
-     * 物流跟踪
-     * 参数: orderId
+     * Express tracking placeholder.
      */
     public function express(Request $request)
     {
@@ -197,12 +188,11 @@ class OrderController extends Controller
             return api_response(null, '订单不存在', 400);
         }
 
-        // 暂无物流信息返回空数组        return api_response([]);
+        return api_response([]);
     }
 
     /**
-     * 取消订单
-     * 参数: orderId
+     * Cancel order.
      */
     public function cancel(Request $request)
     {
@@ -224,12 +214,11 @@ class OrderController extends Controller
         $order->order_status = 20;
         $order->save();
 
-        return api_response(null, '订单已取消);
+        return api_response(null, '订单已取消');
     }
 
     /**
-     * 确认收货
-     * 参数: orderId
+     * Confirm receipt.
      */
     public function receipt(Request $request)
     {
@@ -252,28 +241,27 @@ class OrderController extends Controller
         $order->order_status   = 30;
         $order->save();
 
-        return api_response(null, '收货成功);
+        return api_response(null, '收货成功');
     }
 
-    /**
-     * 获取订单状态文本描述     */
     private function getStateText($order): string
     {
         if ($order->order_status == 20) {
-            return '已取消;
+            return '已取消';
         }
         if ($order->order_status == 30) {
-            return '已完成;
+            return '已完成';
         }
         if ($order->pay_status == 10) {
-            return '待付款;
+            return '待付款';
         }
         if ($order->delivery_status == 10) {
-            return '待发货;
+            return '待发货';
         }
         if ($order->delivery_status == 20 && $order->receipt_status == 10) {
-            return '待收货;
+            return '待收货';
         }
-        return '未知;
+
+        return '未知';
     }
 }

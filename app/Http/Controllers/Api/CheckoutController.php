@@ -18,9 +18,6 @@ use Illuminate\Http\Request;
 
 class CheckoutController extends Controller
 {
-    /**
-     * 获取结算订单信息     * 参数: mode, delivery, couponId(可选), isUsePoints(可选), modeParam
-     */
     public function order(Request $request)
     {
         $user = auth('sanctum')->user();
@@ -34,7 +31,7 @@ class CheckoutController extends Controller
         $isUsePoints = (bool) $request->input('isUsePoints', false);
         $modeParam   = $request->input('modeParam', []);
 
-        // 获取商品数据列表        $goodsList = [];
+        $goodsList = [];
         $orderTotalNum   = 0;
         $orderTotalPrice = 0;
 
@@ -75,7 +72,6 @@ class CheckoutController extends Controller
                 ];
             }
         } else {
-            // cart 购物车模式
             $cartIds = $modeParam['cartIds'] ?? [];
             if (empty($cartIds)) {
                 return api_response(null, '请选择要结算的商品', 400);
@@ -125,7 +121,6 @@ class CheckoutController extends Controller
             }
         }
 
-        // 默认收货地址
         $address = UserAddress::where('user_id', $user->id)
             ->where('is_default', 1)
             ->first();
@@ -140,7 +135,7 @@ class CheckoutController extends Controller
             ];
         }
 
-        // 可用优惠券列表        $userCoupons = UserCoupon::where('user_id', $user->id)
+        $userCoupons = UserCoupon::where('user_id', $user->id)
             ->where('is_used', 0)
             ->where('is_expired', 0)
             ->with('coupon')
@@ -161,7 +156,7 @@ class CheckoutController extends Controller
             ];
         })->filter()->values();
 
-        // 优惠券抵扣金额        $couponMoney = 0;
+        $couponMoney = 0;
         if ($couponId) {
             $userCoupon = UserCoupon::where('user_id', $user->id)
                 ->where('id', $couponId)
@@ -176,20 +171,19 @@ class CheckoutController extends Controller
             }
         }
 
-        // 积分抵扣
         $pointsMoney = 0;
         $profile = UserProfile::where('user_id', $user->id)->first();
         $userPoints = (int) ($profile->points ?? 0);
         $isAllowPoints = $userPoints > 0;
 
         if ($isUsePoints && $isAllowPoints) {
-            // 缁犫偓閸楁洘待100积分= 1元            $pointsMoney = min($userPoints / 100, $orderTotalPrice - $couponMoney);
+            $pointsMoney = min($userPoints / 100, $orderTotalPrice - $couponMoney);
             $pointsMoney = round($pointsMoney, 2);
         }
 
-        // 运费金额        $expressPrice = '0.00';
+        $expressPrice = '0.00';
 
-        // 实付=商品总额-优惠券-积分+运费        $orderPayPrice = max(0, $orderTotalPrice - $couponMoney - $pointsMoney + (float) $expressPrice);
+        $orderPayPrice = max(0, $orderTotalPrice - $couponMoney - $pointsMoney + (float) $expressPrice);
         $orderPayPrice = round($orderPayPrice, 2);
 
         $orderData = [
@@ -224,18 +218,13 @@ class CheckoutController extends Controller
             'order'    => $orderData,
             'setting'  => [
                 'deliveryType'    => [10, 30],
-                'points_name'     => '积分,
-                'points_describe' => '100积分抵1元,
+                'points_name'     => '积分',
+                'points_describe' => '100积分抵1元',
             ],
             'personal' => $personal,
         ]);
     }
 
-    /**
-     * 提交订单
-     * 閸欏倹鏆熼崥?order买家备注remark
-     * 返回:{ orderId, isPaySuccess: false }
-     */
     public function submit(Request $request)
     {
         $user = auth('sanctum')->user();
@@ -250,7 +239,6 @@ class CheckoutController extends Controller
         $remark      = $request->input('remark', '');
         $modeParam   = $request->input('modeParam', []);
 
-        // 获取商品信息
         $goodsItems = [];
         if ($mode === 'buyNow') {
             $goodsId    = $modeParam['goodsId'] ?? 0;
@@ -273,7 +261,6 @@ class CheckoutController extends Controller
             return api_response(null, '商品信息为空', 500);
         }
 
-        // 鐠侊紕鐣绘禒閿嬬壐
         $totalPrice  = 0;
         $couponMoney = 0;
         $pointsMoney = 0;
@@ -290,7 +277,7 @@ class CheckoutController extends Controller
             $totalPrice += $price * $item['goodsNum'];
         }
 
-        // 优惠券        if ($couponId) {
+        if ($couponId) {
             $userCoupon = UserCoupon::where('user_id', $user->id)->where('id', $couponId)->first();
             if ($userCoupon && $userCoupon->coupon) {
                 $c = $userCoupon->coupon;
@@ -305,7 +292,7 @@ class CheckoutController extends Controller
             }
         }
 
-        // 积分        if ($isUsePoints) {
+        if ($isUsePoints) {
             $profile = UserProfile::where('user_id', $user->id)->first();
             $userPoints = (int) ($profile->points ?? 0);
             $pointsMoney = min($userPoints / 100, $totalPrice - $couponMoney);
@@ -315,7 +302,6 @@ class CheckoutController extends Controller
         $payPrice = max(0, $totalPrice - $couponMoney - $pointsMoney);
         $orderNo  = date('YmdHis') . str_pad(rand(0, 9999), 4, '0', STR_PAD_LEFT);
 
-        // 创建订单
         $order = Order::create([
             'user_id'         => $user->id,
             'order_no'        => $orderNo,
@@ -336,7 +322,7 @@ class CheckoutController extends Controller
             'create_time'     => now()->toDateTimeString(),
         ]);
 
-        // 创建订单商品记录        foreach ($goodsItems as $item) {
+        foreach ($goodsItems as $item) {
             $goods = $goodsMap->get($item['goodsId']);
             $sku   = $skuMap->get($item['goodsSkuId']);
 
@@ -365,7 +351,7 @@ class CheckoutController extends Controller
             ]);
         }
 
-        // 创建订单地址        $defaultAddress = UserAddress::where('user_id', $user->id)
+        $defaultAddress = UserAddress::where('user_id', $user->id)
             ->where('is_default', 1)
             ->first();
 
@@ -381,7 +367,7 @@ class CheckoutController extends Controller
             ]);
         }
 
-        // 清空已结算购物车项        if ($mode === 'cart') {
+        if ($mode === 'cart') {
             $cartIds = $modeParam['cartIds'] ?? [];
             Cart::where('user_id', $user->id)->whereIn('id', $cartIds)->delete();
         }

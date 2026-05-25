@@ -25,7 +25,7 @@ class CheckoutController extends Controller
     {
         $user = auth('sanctum')->user();
         if (!$user) {
-            return api_response(null, '未登录, 401);
+            return api_response(null, '未登录', 401);
         }
 
         $mode        = $request->input('mode', 'cart');

@@ -95,17 +95,20 @@ class CashierController extends Controller
             $profile->balance = $balance - $payPrice;
             $profile->save();
 
-            // 记录余额变更日志            BalanceLog::create([
+            // 记录余额变更日志
+            BalanceLog::create([
                 'user_id'  => $user->id,
                 'scene'    => 10,
                 'money'    => -$payPrice,
-                'describe' => '订单支付: . $order->order_no,
+                'describe' => '订单支付: ' . $order->order_no,
             ]);
 
-            // 更新支付状态            $order->pay_status = 20;
+            // 更新支付状态
+            $order->pay_status = 20;
             $order->save();
         } else {
-            // wechat / alipay微信/支付宝模拟支付成功            $order->pay_status = 20;
+            // wechat / alipay 微信/支付宝模拟支付成功
+            $order->pay_status = 20;
             $order->save();
         }
 

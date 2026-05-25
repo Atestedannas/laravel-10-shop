@@ -12,15 +12,11 @@ class UserController extends Controller
 {
     use ApiResponse;
 
-    /**
-     * 获取用户信息
-     * 返回: { userId, nickname, avatar, phone, balance, points }
-     */
     public function info(): JsonResponse
     {
         $user = auth('sanctum')->user();
         if (!$user) {
-            return $this->error(401, '未登录);
+            return $this->error(401, '未登录');
         }
 
         $profile = UserProfile::firstOrCreate(['user_id' => $user->id]);
@@ -35,15 +31,11 @@ class UserController extends Controller
         ]);
     }
 
-    /**
-     * 资产信息
-     * 返回: { balance, points }
-     */
     public function assets(): JsonResponse
     {
         $user = auth('sanctum')->user();
         if (!$user) {
-            return $this->error(401, '未登录);
+            return $this->error(401, '未登录');
         }
 
         $profile = UserProfile::firstOrCreate(['user_id' => $user->id]);
@@ -54,13 +46,11 @@ class UserController extends Controller
         ]);
     }
 
-    /**
-     * 绑定手机     */
     public function bindMobile(Request $request): JsonResponse
     {
         $user = auth('sanctum')->user();
         if (!$user) {
-            return $this->error(401, '未登录);
+            return $this->error(401, '未登录');
         }
 
         $form  = $request->input('form', []);
@@ -77,13 +67,11 @@ class UserController extends Controller
         return $this->success(null, '绑定成功');
     }
 
-    /**
-     * 更新个人信息/头像     */
     public function personal(Request $request): JsonResponse
     {
         $user = auth('sanctum')->user();
         if (!$user) {
-            return $this->error(401, '未登录);
+            return $this->error(401, '未登录');
         }
 
         $form     = $request->input('form', []);
