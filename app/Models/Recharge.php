@@ -22,4 +22,9 @@ class Recharge extends Model
         'pay_status' => 'integer',
         'money'      => 'decimal:2',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
 }

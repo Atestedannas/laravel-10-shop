@@ -24,17 +24,27 @@ class CheckPermission
 
         // 2. 如果未登录，重定向到登录页（可根据需要调整）
         if (!$user) {
-            return redirect()->route('login');
+            return response()->json([
+                'success' => false,
+                'code' => 401,
+                'message' => '未登录',
+                'data' => null,
+            ], 401);
         }
 
         // 3. 超级管理员可以跳过所有权限检查（可选）
-        if ($user->hasRole('super-admin')) {
+        if ((bool) ($user->is_admin ?? false) || $user->hasRole('super-admin')) {
             return $next($request);
         }
 
         // 4. 检查用户是否拥有指定的权限
         if (!$user->hasPermission($permissionSlug)) {
-            abort(403, '您没有权限执行此操作。');
+            return response()->json([
+                'success' => false,
+                'code' => 403,
+                'message' => '您没有权限执行此操作。',
+                'data' => null,
+            ], 403);
         }
 
         return $next($request);

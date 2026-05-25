@@ -574,3 +574,7 @@
 [25-May-2026 09:33:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
 [25-May-2026 09:33:44 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
 [25-May-2026 09:33:44 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 18:48:33 Asia/Shanghai] PHP Notice:  PHP Request Startup: file created in the system's temporary directory in Unknown on line 0
+[25-May-2026 18:48:53 Asia/Shanghai] PHP Notice:  PHP Request Startup: file created in the system's temporary directory in Unknown on line 0
+[25-May-2026 18:49:55 Asia/Shanghai] PHP Notice:  PHP Request Startup: file created in the system's temporary directory in Unknown on line 0
+[25-May-2026 18:50:06 Asia/Shanghai] PHP Notice:  PHP Request Startup: file created in the system's temporary directory in Unknown on line 0
