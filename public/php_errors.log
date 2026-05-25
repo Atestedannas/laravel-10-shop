@@ -1,0 +1,384 @@
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:26 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:10:35 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:11:32 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:13 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:15:52 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:17:43 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 05:18:51 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_pdo_firebird' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_pdo_firebird (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_pdo_firebird.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'bcmath' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\bcmath (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_bcmath.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "gd" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'Tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\Tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_Tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'ctype' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\ctype (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_ctype.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'json' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\json (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_json.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'phar' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\phar (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_phar.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'posix' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\posix (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_posix.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'readline' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\readline (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_readline.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'simplexml' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\simplexml (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_simplexml.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'spl' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\spl (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_spl.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'tokenizer' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\tokenizer (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_tokenizer.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlreader' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlreader (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlreader.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'xmlwriter' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\xmlwriter (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlwriter.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'zlib' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\zlib (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_zlib.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "bz2" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_gd2.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_gd2.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_gd2.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "gettext" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "exif" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "openssl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "pdo_mysql" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "pdo_pgsql" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "pdo_sqlite" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "pgsql" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "shmop" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "soap" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "sockets" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "sqlite3" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "tidy" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xmlrpc.dll' (tried: D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_xmlrpc.dll (找不到指定的模块。), D:\phpstudy_pro\Extensions\php\php8.2.9nts\ext\php_php_xmlrpc.dll.dll (找不到指定的模块。)) in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "xsl" is already loaded in Unknown on line 0
+[25-May-2026 07:36:13 UTC] PHP Warning:  Module "zip" is already loaded in Unknown on line 0
